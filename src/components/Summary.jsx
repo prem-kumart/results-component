@@ -45,7 +45,7 @@ const Summary = () => {
 
 
   return (
-    <div className="desktop:m-9 m-6 flex flex-col gap-7 ">
+    <section className="desktop:m-9 m-6 flex flex-col gap-7 ">
         <h2 className="font-hanken font-semibold text-2xl mr-44 text-dark-navy">
             Summary
         </h2>
@@ -68,7 +68,7 @@ const Summary = () => {
                 Continue
         </button> 
          
-    </div>
+    </section>
   )
 }
 
