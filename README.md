@@ -2,7 +2,6 @@
 
 - Live Site URL:[Live Site](https://prem-kumart.github.io/results-component/)
 
-
 ## Overview
 
 Users should be able to:
@@ -14,11 +13,6 @@ Users should be able to:
 
 ![](./src/assets/screenshot.png)
 
-
-### Links
-
-
-## My process
 
 ### Built with
 
