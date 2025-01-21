@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+:root {
+   /* --gradient-one : linear-gradient(#7755FF 0% ,#6943FF 0% ,#2F2CE9 100%) */
+
+   --gradient-one : linear-gradient(#7755FF 0%, #6943FF 50%, #2F2CE9 100%);
+   --gradient-two : linear-gradient(hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%, hsla(241, 72%, 46%, 0) 100%);
+   --yellow-white : color-mix(in srgb, #FFFFFF 95% ,#FFB21E 5%);
+   --blue-white : color-mix(in srgb,#FFFFFF 95%, #1125D6 5% );
+   --green-white : color-mix(in srgb,#FFFFFF 95%, #00BB8F 5% );
+   --red-white : color-mix(in srgb,#FFFFFF 95%, #FF5555 5% );
+}
+
+
+.yellow-white {
+   background-color : var(--yellow-white);
+}
+
+.blue-white {
+   background-color : var(--blue-white);
+}
+
+.green-white {
+   background-color : var(--green-white);
+}
+
+.red-white {
+   background-color: var(--red-white);
+}
+
+
+.gradient-one { 
+  background-image: var(--gradient-one);
+}
+
+
+.gradient-two { 
+  background-image: var(--gradient-two);
+}
